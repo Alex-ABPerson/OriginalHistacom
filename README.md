@@ -1,30 +1,18 @@
+# Original Histacom Source
+## NEW PROJECT: https://github.com/TheRandomMelon/Histacom2
 
-# HistacomVB
+This is repo contains the original source in two forms.
 
-## The developed, VB version of TimeHACK/Histacom
+- The original untouched Source - This was the final version of Histacom as it was before Philip stopped working on it.
+- HistacomVB Source - The changes I made to the source after Philip stopped working on it (see below).
 
-NOTE: This has been cancelled and is replaced with TimeHACK - check it out at https://github.com/TimeHACKDevs/TimeHACK!!!!
+## HistacomVB
+After Philip stopped working on it, two new projects were started up: TimeHACK and HistacomVB.
 
-IF YOU STILL WANT TO DOWNLOAD THE LATEST EVER MADE BUILD OF HISTACOMVB THEN DOWNLOAD IT USING THIS BECAUSE THE APPVEYOR IS DEAD!!: https://goo.gl/kLVJzH
----
+TimeHACK (later became Histacom2) was a rewrite of Histacom from the ground up.
+However, while TimeHACK was going on, there was also HistacomVB, which was the original source of Histacom, which I worked on for a while before abandoning it and moving onto TimeHACK.
+The only real changes I made was a project re-structure, and border being added dynamically as windows are opened.
 
-[![Discord](https://discordapp.com/api/guilds/234414439330349056/widget.png?style=shield)](https://discord.gg/zMwf3)
-[![Build status](https://ci.appveyor.com/api/projects/status/oo603xid0lea8b0t?svg=true)](https://ci.appveyor.com/project/timehack/histacomvb)
-
----
-The current lead developer of this repository is Alex-TIMEHACK. (alex on Discord)
-
-If you need any support, message a dev on the Discord server, or use the forums.
-
-You can join the Discord using the badge above.
-
----
-
-Release types used:
-- Latest: Whenever a commit is pushed, our friend AppVeyor builds it and provides a download. You can download AppVeyor builds [here](http://ci.appveyor.com/project/timehack/histcomvb/build/artifacts)
-- Unstable: Once there's enough features, an unstable release is made. This build will contain bugs most of the time.
-- Stable: This build is VERY well tested and will likely have very little bugs.
-
----
-
-Without AShifter, this project would not have existed. Send your kudos to him :P
+## In this repo
+- **master** branch - This contains the original *untouched* source code.
+- **revamped** branch - This contains the modified source.
